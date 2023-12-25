@@ -7,7 +7,7 @@
 
 ## Overview
 
-This repository contains a Nix overlay for the [Flow CLI](https://github.com/onflow/flow-cli). It is automatically updated on a daily basis (every day at midnight) with the latest stable version of the CLI.
+This repository contains a Nix overlay for the [Flow CLI](https://github.com/onflow/flow-cli). It is automatically updated on a daily basis (every day at midnight UTC) with the latest stable version of the CLI.
 
 ## Usage
 

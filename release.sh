@@ -41,9 +41,7 @@ get_missing_tags() { (
 		done
 	fi
 
-	# This sorts the releases in ascending order (e.g. v1.0.0, v2.0.0, ...)
-	# and filters out releases that don't have valid assets for the overlay
-	echo "${!missingTags[@]}" | tr ' ' '\n' | sort -V # | awk '$0 > "v0.42.5"'
+	echo "${!missingTags[@]}" | tr ' ' '\n' | sort -V
 ); }
 
 # Creates releases for the missing tags
