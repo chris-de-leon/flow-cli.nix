@@ -1,23 +1,23 @@
 {
-  version = "v1.4.3";
-  timestamp = "2023-12-25T10:22:28Z";
+  version = "v1.4.4";
+  timestamp = "2023-12-25T10:22:50Z";
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/onflow/flow-cli/releases/download/v1.4.3/flow-cli-v1.4.3-linux-amd64.tar.gz";
-      sha256 = "sha256-Pn2LIle6w2976IlZF2T3viuJouSa2gTQ+rCvEjAZs1Q=";
+      url = "https://github.com/onflow/flow-cli/releases/download/v1.4.4/flow-cli-v1.4.4-linux-amd64.tar.gz";
+      sha256 = "sha256-btE1ZKb8ejdjjjJNGqtkeIrUm3CGOWZNEtXFqqaOd1o=";
 
     };
     "aarch64-linux" = {
-      url = "https://github.com/onflow/flow-cli/releases/download/v1.4.3/flow-cli-v1.4.3-linux-arm64.tar.gz";
-      sha256 = "sha256-WFSfKtzo3THjUxL/7wTy0g8aS5QjsfKghXA0Zpl4+5k=";
+      url = "https://github.com/onflow/flow-cli/releases/download/v1.4.4/flow-cli-v1.4.4-linux-arm64.tar.gz";
+      sha256 = "sha256-cnrmOvHOkshQjRGDqPOPFB+9u8t9JoNVn+T/yF7RNME=";
     };
     "x86_64-darwin" = {
-      url = "https://github.com/onflow/flow-cli/releases/download/v1.4.3/flow-cli-v1.4.3-darwin-amd64.tar.gz";
-      sha256 = "sha256-bFvWqFbP+zT0tFTrS2SUT2BTHqxUpwnYzAwfHfer2Mo=";
+      url = "https://github.com/onflow/flow-cli/releases/download/v1.4.4/flow-cli-v1.4.4-darwin-amd64.tar.gz";
+      sha256 = "sha256-Ja8SNk1uQrjYYMNg3h0da+w9F8k+6N3pMgLpIh+tSxY=";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/onflow/flow-cli/releases/download/v1.4.3/flow-cli-v1.4.3-darwin-arm64.tar.gz";
-      sha256 = "sha256-KOTsxcn0QzPb2aGn5Ws/Y9sV+hLWJvODW1nrif874KY=";
+      url = "https://github.com/onflow/flow-cli/releases/download/v1.4.4/flow-cli-v1.4.4-darwin-arm64.tar.gz";
+      sha256 = "sha256-6phMlacMgK7p4mSQkAIFTHTmoypY05TblcsUdNvp4yk=";
     };
   };
 }
