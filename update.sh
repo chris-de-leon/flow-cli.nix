@@ -14,7 +14,7 @@ get_url() {
 get_hash() {
 	local arch="$1"
 	local tag="$2"
-	nix-shell -p nix-prefetch --run "nix-prefetch fetchzip --url \"$(get_url $arch $tag)\""
+	nix-shell -p nix-prefetch --run "nix-prefetch fetchzip --url \"$(get_url $arch $tag)\" --no-stripRoot"
 }
 
 # Fetches hashes and urls for linux-amd64

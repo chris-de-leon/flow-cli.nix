@@ -13,6 +13,7 @@ stdenv.mkDerivation {
   
   src = pkgs.fetchzip {
     inherit (srcAttrs) url sha256;
+    stripRoot = false;
   };
 
   installPhase = ''
